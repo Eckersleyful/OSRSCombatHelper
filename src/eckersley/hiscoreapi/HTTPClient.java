@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package eckersley.API;
+package eckersley.hiscoreapi;
 import java.net.http.HttpClient;
 
 /**

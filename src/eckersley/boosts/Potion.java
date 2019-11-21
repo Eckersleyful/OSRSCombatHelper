@@ -1,11 +1,11 @@
-package boosts;
+package eckersley.boosts;
 import java.util.HashMap;
 import java.util.Map;
 
 public enum Potion {
         SUPERATTACK("attack","Super Attack", 5.0, 1.15),
-        SUPERSTRENGTH("strength", "Super Strength", 5, 1.15),
-        SUPERDEFENCE("defence", "Super Defence", 5, 1.15);
+        SUPERSTRENGTH("strength", "Super Strength", 5.0, 1.15),
+        SUPERDEFENCE("defence", "Super Defence", 5.0, 1.15);
 
 
 

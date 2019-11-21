@@ -1,4 +1,4 @@
-package stats;
+package eckersley.stats;
 
 public class Account {
 }
