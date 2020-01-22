@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f016e8-dbea-4068-ad3b-fdead0308b0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/boosts/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/boosts/items/MageItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/stats/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ilmari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/ItemIDPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/entities/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/resources/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/UIHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/GridPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boosts/Potions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boosts/Prayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/boosts/Prayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiscores/HTTPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/hiscoreapi/HTTPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/items/BaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/boosts/items/BaseItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/items/MeleeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/boosts/items/MeleeItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/items/RangedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/boosts/items/RangedItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Accuracy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/logic/Accuracy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runtime/mainTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/runtime/MainTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSRSCombatHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OSRSCombatHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/BaseItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/MageItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/MeleeItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/RangedItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/hiscoreapi/HTTPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/runtime/MainTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/runtime/MainTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/stats/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/entities/BaseUnit.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +30,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Kotlin File" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,17 +51,23 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Harkkatyö" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaProjects\OSRSCombatHelper\src\eckersley\runtime" />
+      <recent name="F:\JavaProjects\OSRSCombatHelper\src\eckersley\resources" />
       <recent name="F:\JavaProjects\OSRSCombatHelper\src" />
       <recent name="F:\JavaProjects\OSRSCombatHelper" />
     </key>
@@ -72,6 +90,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.MainTesting">
+    <configuration name="FileLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eckersley.runtime.FileLoader" />
+      <module name="OSRSCombatHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eckersley.runtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java11HttpClientExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eckersley.hiscoreapi.Java11HttpClientExample1" />
+      <module name="OSRSCombatHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eckersley.apis.jsonObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eckersley.runtime.MainTesting" />
+      <module name="OSRSCombatHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eckersley.runtime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eckersley.ui.UIHandler" />
+      <module name="OSRSCombatHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eckersley.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainTesting" />
+        <item itemvalue="Application.UIHandler" />
+        <item itemvalue="Application.FileLoader" />
+        <item itemvalue="Application.Java11HttpClientExample1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
   </component>
@@ -86,7 +166,27 @@
       <option name="presentableId" value="Default" />
       <updated>1574244881071</updated>
       <workItem from="1574244886488" duration="6281000" />
-      <workItem from="1574328989532" duration="170000" />
+      <workItem from="1574328989532" duration="7969000" />
+      <workItem from="1574354492891" duration="1878000" />
+      <workItem from="1574431662266" duration="6055000" />
+      <workItem from="1574540927655" duration="3573000" />
+      <workItem from="1574679223672" duration="15675000" />
+      <workItem from="1574884142326" duration="410000" />
+      <workItem from="1574886927118" duration="1837000" />
+      <workItem from="1574889698616" duration="3740000" />
+      <workItem from="1574933586736" duration="6223000" />
+      <workItem from="1575058408613" duration="53000" />
+      <workItem from="1575306986553" duration="161000" />
+      <workItem from="1575391492447" duration="212000" />
+      <workItem from="1575892083257" duration="842000" />
+      <workItem from="1576061838779" duration="2345000" />
+      <workItem from="1576158091103" duration="9115000" />
+      <workItem from="1576180718987" duration="534000" />
+      <workItem from="1576789250327" duration="11000" />
+      <workItem from="1578651150766" duration="6858000" />
+      <workItem from="1578667077921" duration="5045000" />
+      <workItem from="1579169601082" duration="26000" />
+      <workItem from="1579695869310" duration="10641000" />
     </task>
     <servers />
   </component>
@@ -110,5 +210,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/OSRSCombatHelper" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="response" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
