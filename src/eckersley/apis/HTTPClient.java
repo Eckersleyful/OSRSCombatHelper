@@ -10,17 +10,14 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import eckersley.apis.jsonObjects.Item;
 import eckersley.apis.jsonObjects.ItemIDPair;
-import eckersley.entities.BaseUnit;
-import eckersley.entities.Player;
-
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.*;
+import static eckersley.entities.ItemConstants.EQUIPMENT_SLOTS;
 
 /**
  *
@@ -32,11 +29,8 @@ public class HTTPClient {
             .version(HttpClient.Version.HTTP_2)
             .build();
 
-    private final String[] itemSlots = new String[]{"2h", "ammo", "body", "cape", "feet", "hands", "head", "legs", "neck", "ring", "shield", "weapon"};
-    HashMap<String, ArrayList<Item>> itemMap;
-    public HTTPClient(){
-        getItems();
-    }
+
+
 
     public double[] getPlayerStats(String playerName){
         try {
@@ -115,25 +109,14 @@ public class HTTPClient {
         return itemIDNamePairs;
     }
 
-    public ArrayList<Item> getItemBySlot(String slot){
-        ArrayList<Item> items = itemMap.get(slot);
 
-        Collections.sort(items, new Comparator<Item>() {
-            @Override
-            public int compare(Item item, Item t1) {
-                return item.getItemName().compareTo(t1.getItemName());
-            }
-        });
-        
-        return items;
-    }
     
     
     public HashMap<String, ArrayList<Item>> getItems(){
 
-        itemMap = new HashMap<>();
+        HashMap<String, ArrayList<Item>> itemMap = new HashMap<>();
 
-        for(String slot : itemSlots) {
+        for(String slot : EQUIPMENT_SLOTS) {
             HttpRequest request = HttpRequest.newBuilder()
                     .GET()
                     .uri(URI.create("https://www.osrsbox.com/osrsbox-db/items-json-slot/items-"+slot+".json"))

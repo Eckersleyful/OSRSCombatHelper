@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f016e8-dbea-4068-ad3b-fdead0308b0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ilmari.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/ItemIDPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/entities/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/resources/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/UIHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/GridPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/entities/ItemConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSRSCombatHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OSRSCombatHelper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/BaseItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/MageItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/MeleeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/boosts/items/RangedItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/hiscoreapi/HTTPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/runtime/MainTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/runtime/MainTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/stats/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/entities/BaseUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomMainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomMainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/GridPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/ItemRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/ItemRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/UIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/UIData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/CustomPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomComboBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/GridPanel.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eckersley.ui.UIHandler" />
+    <configuration name="UIData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eckersley.ui.UIData" />
       <module name="OSRSCombatHelper" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +139,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainTesting" />
-        <item itemvalue="Application.UIHandler" />
+        <item itemvalue="Application.UIData" />
         <item itemvalue="Application.FileLoader" />
         <item itemvalue="Application.Java11HttpClientExample1" />
       </list>
@@ -186,7 +179,8 @@
       <workItem from="1578651150766" duration="6858000" />
       <workItem from="1578667077921" duration="5045000" />
       <workItem from="1579169601082" duration="26000" />
-      <workItem from="1579695869310" duration="10641000" />
+      <workItem from="1579695869310" duration="11233000" />
+      <workItem from="1579778560034" duration="4345000" />
     </task>
     <servers />
   </component>
