@@ -1,4 +1,4 @@
-package eckersley.apis.jsonObjects;
+package eckersley.apis.jsonObjects.item;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -9,7 +9,7 @@ public class Item {
     @SerializedName("name")
     String itemName;
     @SerializedName("equipment")
-    equipment itemStats;
+    Equipment itemStats;
     @SerializedName("weapon")
     public weapon weaponstats;
 
@@ -21,7 +21,7 @@ public class Item {
         return itemName;
     }
 
-    public equipment getItemStats() {
+    public Equipment getItemStats() {
         return itemStats;
     }
 
@@ -29,6 +29,14 @@ public class Item {
         return weaponstats;
 
 
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Item){
+            return (((Item) obj)).getItemName().equals(itemName);
+        }
+        return false;
     }
 }
 

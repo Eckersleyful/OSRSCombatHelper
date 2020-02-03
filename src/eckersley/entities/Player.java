@@ -1,21 +1,25 @@
 package eckersley.entities;
-import eckersley.apis.jsonObjects.Item;
-import java.util.ArrayList;
 
 public class Player extends BaseUnit{
 
 
 
-    public Player(String name, double attackLevel, double defenceLevel, double strengthLevel, double hitpointsLevel, double rangedLevel, double prayerLevel, double magicLevel) {
-        super(name, attackLevel, defenceLevel, strengthLevel, hitpointsLevel, rangedLevel, prayerLevel, magicLevel);
 
+
+    public Player(String name, double[] levels){
+
+        setName(name);
+        setAttackLevel(levels[0]);
+        setDefenceLevel(levels[1]);
+        setStrengthLevel(levels[2]);
+        setHitpointsLevel(levels[3]);
+        setRangedLevel(levels[4]);
+        setPrayerLevel(levels[5]);
+        setMagicLevel(levels[6]);
     }
 
-    public Player(String name){
-        super(name);
-    }
-    public Player(){
-        super("Eckersley",1,1,1,1,1,1,1);
-    }
 
+    public Player() {
+
+    }
 }

@@ -1,4 +1,4 @@
-package eckersley.apis.jsonObjects;
+package eckersley.apis.jsonObjects.item;
 
 import com.google.gson.annotations.SerializedName;
 

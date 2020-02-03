@@ -2,22 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f016e8-dbea-4068-ad3b-fdead0308b0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eckersley/entities/ItemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/monster/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/HighScorePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/ItemPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eckersley/ui/components/SkillPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/META-INF/OSRSCombatHelper.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/META-INF/OSRSCombatHelper.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/HTTPClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/jsonObjects/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/jsonObjects/ItemIDPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/jsonObjects/equipment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/apis/jsonObjects/weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/entities/BaseUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/entities/BaseUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/entities/ItemConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/entities/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/entities/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/resources/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/resources/equippedItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/resources/neitiznot.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/resources/robes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIData$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/UIData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomComboBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomComboBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomMainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomMainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/CustomPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/GridPanel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/ItemRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OSRSCombatHelper/eckersley/ui/components/ItemRenderer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/HTTPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/UIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/UIData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/ItemIDPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/item/ItemIDPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/item/Equipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/apis/jsonObjects/item/weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/entities/BaseUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/entities/BaseUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/entities/ItemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/entities/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/resources/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/resources/equippedItems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/resources/neitiznot.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/resources/robes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/UIData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/UIData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/CustomComboBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomComboBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomMainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/CustomPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eckersley/ui/components/CustomComboBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eckersley/ui/components/GridPanel.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +66,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -55,7 +83,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,20 +96,9 @@
       <recent name="boosts.items" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="eckersley.ui.components" />
       <recent name="boosts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.MainTesting">
     <configuration name="FileLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -102,7 +119,7 @@
       <module name="OSRSCombatHelper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eckersley.apis.jsonObjects.*" />
+          <option name="PATTERN" value="eckersley.apis.jsonObjects.item.weapon" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,7 +197,14 @@
       <workItem from="1578667077921" duration="5045000" />
       <workItem from="1579169601082" duration="26000" />
       <workItem from="1579695869310" duration="11233000" />
-      <workItem from="1579778560034" duration="4345000" />
+      <workItem from="1579778560034" duration="4646000" />
+      <workItem from="1579948564668" duration="183000" />
+      <workItem from="1579948899253" duration="4536000" />
+      <workItem from="1579971759128" duration="4024000" />
+      <workItem from="1580113645504" duration="17318000" />
+      <workItem from="1580285477093" duration="5003000" />
+      <workItem from="1580470219865" duration="3620000" />
+      <workItem from="1580498478126" duration="39000" />
     </task>
     <servers />
   </component>
@@ -205,10 +229,92 @@
       <path value="$PROJECT_DIR$/OSRSCombatHelper" />
     </ignored-roots>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="1050" y="402" key="#com.intellij.ide.util.MemberChooser" timestamp="1580471995351">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1132" y="451" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580116875449" />
+    <state x="1050" y="402" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580471995351" />
+    <state x="1076" y="586" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580472861513">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1076" y="586" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580472861512" />
+    <state x="1010" y="448" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580470397264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="448" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580470397264" />
+    <state width="2517" height="259" key="GridCell.Tab.0.bottom" timestamp="1580498516632">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580117025393" />
+    <state width="2517" height="259" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580498516632" />
+    <state width="2517" height="259" key="GridCell.Tab.0.center" timestamp="1580498516631">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580117025393" />
+    <state width="2517" height="259" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580498516631" />
+    <state width="2517" height="259" key="GridCell.Tab.0.left" timestamp="1580498516631">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580117025393" />
+    <state width="2517" height="259" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580498516631" />
+    <state width="2517" height="259" key="GridCell.Tab.0.right" timestamp="1580498516631">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580117025393" />
+    <state width="2517" height="259" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580498516631" />
+    <state width="2517" height="320" key="GridCell.Tab.1.bottom" timestamp="1580137320253">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="320" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580137320253" />
+    <state width="2517" height="320" key="GridCell.Tab.1.center" timestamp="1580137320252">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="320" key="GridCell.Tab.1.center/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580137320252" />
+    <state width="2517" height="320" key="GridCell.Tab.1.left" timestamp="1580137320252">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="320" key="GridCell.Tab.1.left/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580137320252" />
+    <state width="2517" height="320" key="GridCell.Tab.1.right" timestamp="1580137320252">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="320" key="GridCell.Tab.1.right/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580137320252" />
+    <state x="781" y="343" key="SettingsEditor" timestamp="1580132904316">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="343" key="SettingsEditor/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580132904316" />
+    <state x="1127" y="617" key="VCS.ChangelistChooser" timestamp="1579959065325">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1127" y="617" key="VCS.ChangelistChooser/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1579959065325" />
+    <state x="388" y="-18" width="1474" height="1139" maximized="true" key="dock-window-1" timestamp="1580113699413">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="388" y="-18" width="1474" height="1139" maximized="true" key="dock-window-1/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1580113699413" />
+    <state x="-1920" y="118" width="1936" height="1098" key="dock-window-2" timestamp="1580117506485">
+      <screen x="-1920" y="118" width="1920" height="1160" />
+    </state>
+    <state x="-1920" y="118" width="1936" height="1098" key="dock-window-2/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580117506485" />
+    <state x="1022" y="329" key="refactoring.ChangeSignatureDialog" timestamp="1580127487956">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1022" y="329" key="refactoring.ChangeSignatureDialog/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580127487956" />
+    <state x="821" y="255" key="run.anything.popup" timestamp="1580290530264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1304" y="329" key="run.anything.popup/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@-1920.118.1920.1160" timestamp="1579973841856" />
+    <state x="821" y="255" key="run.anything.popup/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580290530264" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1580133956075">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.-236.1200.1880/-1920.118.1920.1160@0.0.2560.1400" timestamp="1580133956075" />
+  </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="response" language="JAVA" />
+        <watch expression="ree.get(94)" />
+        <watch expression="ree.get(94)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

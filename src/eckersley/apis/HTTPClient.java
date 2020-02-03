@@ -8,8 +8,10 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import eckersley.apis.jsonObjects.Item;
-import eckersley.apis.jsonObjects.ItemIDPair;
+import eckersley.apis.jsonObjects.item.Item;
+import eckersley.apis.jsonObjects.item.ItemIDPair;
+import eckersley.apis.jsonObjects.monster.Monster;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -17,7 +19,7 @@ import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.*;
-import static eckersley.entities.ItemConstants.EQUIPMENT_SLOTS;
+import static eckersley.entities.Constants.EQUIPMENT_SLOTS;
 
 /**
  *
@@ -25,12 +27,16 @@ import static eckersley.entities.ItemConstants.EQUIPMENT_SLOTS;
  */
 public class HTTPClient {
 
+
+    Gson gson;
     private final HttpClient httpClient = HttpClient.newBuilder()
             .version(HttpClient.Version.HTTP_2)
             .build();
 
 
-
+    public HTTPClient(){
+        gson = new Gson();
+    }
 
     public double[] getPlayerStats(String playerName){
         try {
@@ -89,7 +95,7 @@ public class HTTPClient {
         // print status code
         System.out.println("Status:" + response.statusCode());
 
-        Gson gson = new Gson();
+
         return getItemNameIDHashMap(response.body());
 
 
@@ -98,7 +104,7 @@ public class HTTPClient {
 
     public HashMap getItemNameIDHashMap(String json){
         HashMap<String, String> itemIDNamePairs = new HashMap<String, String>();
-        Gson gson = new Gson();
+
         JsonObject obj = new JsonParser().parse(json).getAsJsonObject();
         for(Map.Entry<String, JsonElement> entry:obj.entrySet()){
             //parse json
@@ -110,12 +116,43 @@ public class HTTPClient {
     }
 
 
+    public ArrayList<Monster> getMonsters(){
+        ArrayList<Monster> allMonsters = new ArrayList<>();
+        System.out.println("Fetching monsters...");
+        HttpRequest request = HttpRequest.newBuilder()
+                .GET()
+                .uri(URI.create("https://www.osrsbox.com/osrsbox-db/monsters-complete.json"))
+                .setHeader("User-Agent", "Eckersley OSRS App") // add request header
+                .build();
+        HttpResponse<String> response = null;
+
+        try {
+            response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Monster query status: " + response.statusCode());
+        System.out.println("Finished fetching monsters");
+
+        JsonObject obj = new JsonParser().parse(response.body()).getAsJsonObject();
+        ArrayList<Monster> monsterList = new ArrayList<>();
+        for(Map.Entry<String, JsonElement> entry:obj.entrySet()){
+            //parse json
+            Monster tempMonster = gson.fromJson(entry.getValue().getAsJsonObject(), Monster.class);
+            monsterList.add(tempMonster);
+
+        }
+        return monsterList;
+    }
+
     
     
     public HashMap<String, ArrayList<Item>> getItems(){
 
         HashMap<String, ArrayList<Item>> itemMap = new HashMap<>();
-
+        System.out.println("Fetching items...");
         for(String slot : EQUIPMENT_SLOTS) {
             HttpRequest request = HttpRequest.newBuilder()
                     .GET()
@@ -137,9 +174,9 @@ public class HTTPClient {
             //headers.map().forEach((k, v) -> System.out.println(k + ":" + v));
 
             // print status code
-            System.out.println("Status:" + response.statusCode());
+            System.out.println("Item query status: " + response.statusCode());
 
-            Gson gson = new Gson();
+
             JsonObject obj = new JsonParser().parse(response.body()).getAsJsonObject();
             ArrayList<Item> itemList = new ArrayList<>();
             for(Map.Entry<String, JsonElement> entry:obj.entrySet()){
@@ -150,6 +187,7 @@ public class HTTPClient {
             }
             itemMap.put(slot, itemList);
         }
+        System.out.println("Finished fetching items");
         return itemMap;
     }
 }

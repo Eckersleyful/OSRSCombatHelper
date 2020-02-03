@@ -1,10 +1,10 @@
-package eckersley.apis.jsonObjects;
+package eckersley.apis.jsonObjects.item;
 
 import com.google.gson.annotations.SerializedName;
 
 import javax.annotation.processing.SupportedAnnotationTypes;
 
-public class equipment{
+public class Equipment {
     public double getStabBonus() {
         return stabBonus;
     }
@@ -44,6 +44,24 @@ public class equipment{
     @SerializedName("slot")
     private String slot;
 
+
+    public double[] getStatArray(){
+        return new double[]{
+                stabBonus,
+                slashBonus,
+                crushBonus,
+                magicBonus,
+                rangedAttack,
+                stabDefence,
+                slashDefence,
+                crushDefence,
+                magicDefence,
+                rangedDefence,
+                meleeStrength,
+                rangedStrength,
+                magicStrength,
+        };
+    }
     public double getCrushBonus() {
         return crushBonus;
     }

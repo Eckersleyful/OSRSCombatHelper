@@ -13,7 +13,9 @@ public class BaseUnit {
     private double prayerLevel;
     private double magicLevel;
 
+    public BaseUnit(){
 
+    }
     public BaseUnit(String name, double attackLevel, double defenceLevel, double strengthLevel, double hitpointsLevel, double rangedLevel, double prayerLevel, double magicLevel) {
         this.name = name;
         this.attackLevel = attackLevel;
@@ -25,16 +27,7 @@ public class BaseUnit {
         this.magicLevel = magicLevel;
     }
     public BaseUnit(String name){
-        HTTPClient HT = new HTTPClient();
-        double[] levels = HT.getPlayerStats("Eckersley");
-        this.name = name;
-        attackLevel = levels[0];
-        defenceLevel = levels[1];
-        strengthLevel = levels[2];
-        hitpointsLevel = levels[3];
-        rangedLevel = levels[4];
-        prayerLevel = levels[5];
-        magicLevel = levels[6];
+
     }
     public String getName() {
         return name;
@@ -66,5 +59,37 @@ public class BaseUnit {
 
     public double getMagicLevel() {
         return magicLevel;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAttackLevel(double attackLevel) {
+        this.attackLevel = attackLevel;
+    }
+
+    public void setDefenceLevel(double defenceLevel) {
+        this.defenceLevel = defenceLevel;
+    }
+
+    public void setStrengthLevel(double strengthLevel) {
+        this.strengthLevel = strengthLevel;
+    }
+
+    public void setHitpointsLevel(double hitpointsLevel) {
+        this.hitpointsLevel = hitpointsLevel;
+    }
+
+    public void setRangedLevel(double rangedLevel) {
+        this.rangedLevel = rangedLevel;
+    }
+
+    public void setPrayerLevel(double prayerLevel) {
+        this.prayerLevel = prayerLevel;
+    }
+
+    public void setMagicLevel(double magicLevel) {
+        this.magicLevel = magicLevel;
     }
 }
